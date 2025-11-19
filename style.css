@@ -58,7 +58,7 @@ article {
 .category {
   font-family: var(--mont);
   font-size: 12px;
-  line-height: 150%;
+  line-height: 120%;
   letter-spacing: 5px;
   color: var(--grey);
 }
@@ -68,6 +68,7 @@ article {
   font-size: 32px;
   font-weight: bold;
   color: var(--black);
+  line-height: 100%;
 }
 
 .description {
@@ -131,12 +132,12 @@ button {
     width: 50%;
   }
 
-  article {
-    width: 50%;
-  }
-
   .product-image * {
     height: 100%;
     display: inline;
+  }
+
+  article {
+    width: 50%;
   }
 }
