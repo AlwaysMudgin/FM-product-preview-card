@@ -22,7 +22,7 @@ body {
 }
 
 main {
-  max-width: 600px;
+  max-width: 350px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -120,10 +120,11 @@ button {
   color: var(--green-500);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 624px) {
   main {
     flex-direction: row;
     max-height: 456px;
+    max-width: 600px;
   }
 
   .product-image {
