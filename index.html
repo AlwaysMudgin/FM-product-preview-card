@@ -24,10 +24,20 @@
   <body>
     <main>
       <div class="product-image">
-        <img
-          src="./images/image-product-mobile.jpg"
-          alt="picture of Chanel Gabrielle perfume"
-        />
+        <picture>
+          <source
+            media="(width < 600px)"
+            srcset="./images/image-product-mobile.jpg"
+          />
+          <source
+            media="(width >= 600px)"
+            srcset="./images/image-product-desktop.jpg"
+          />
+          <img
+            src="./images/image-product-mobile.jpg"
+            alt="picture of Gabrielle perfume bottle"
+          />
+        </picture>
       </div>
       <article>
         <section class="product-info">
