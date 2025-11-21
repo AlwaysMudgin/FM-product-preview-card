@@ -39,10 +39,14 @@ article {
   overflow: hidden;
 }
 
-.product-image,
-.product-image * {
+.product-image {
   width: 100%;
-  display: block;
+}
+
+.product-image img {
+  max-width: 100%;
+  display: inline-flex;
+  object-fit: cover;
 }
 
 .product-image {
